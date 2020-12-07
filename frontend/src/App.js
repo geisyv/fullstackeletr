@@ -1,15 +1,7 @@
-import Header from './Components/Header';
-import Footer from './Components/Footer';
+import Routes from './Routes';
 
-function App(){
-  return (
-    <>
-      <Header/>
-      <Footer/>
-
-      <h1>olá</h1>
-    </>
-  );
+function App() {
+  return <Routes />;
 }
 
 export default App;
